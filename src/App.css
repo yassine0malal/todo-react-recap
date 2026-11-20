@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.counter{
+  display: flex;
+  align-content: center;
+  gap: 14px;
+  align-items: center;
+  text-align: center;
+}
+
+.element{
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+input[type="checkbox"]{
+  padding: 8px;
+  width: 28px;
+  height: 28px;
+  left:0;
+}
+.delete{
+  color: aliceblue;
+  background-color: #ff4757;
+  padding: 8px;
+  width: 100px;
+  border-radius: 8px;
+  border: #fff solid 1px;
+  transition: 0.2s ;
+}
+.delete:hover{
+  scale: .9;
+}
+.delete:active{
+  scale: 1;
+}
